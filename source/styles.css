@@ -131,12 +131,53 @@ main{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     gap: 2rem 5rem;
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 
 .grid-container article{
-    border: 1px solid;
-    height: 10rem;
+    height: 15rem;
     gap: 5rem 1rem 3rem 1rem;
+}
+
+article{
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+}
+article .article-left-container{
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+article img{
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 8rem;
+    height: 8rem;
+}
+
+article .article-right-container{
+    height: 80%;
+}
+article h3{
+    padding: 1.2rem 0;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+article p{
+    text-align: justify;
+    font-size: 1.6rem;
+    margin-bottom: 2rem
+}
+
+article a{
+    color: var(--btn-color);
+    font-size: 1.3rem;
+    font-weight: 600;
 }
