@@ -145,9 +145,9 @@ article{
     align-items: center;
     display: flex;
 }
-article .article-left-container{
+.article-left-container{
     justify-content: center;
-    width: 25%;
+    width: 110px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -157,27 +157,28 @@ article img{
     justify-content: center;
     align-items: center;
     object-fit: cover;
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 article .article-right-container{
+    width: 30rem;
     height: 80%;
 }
 article h3{
     padding: 1.2rem 0;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
 article p{
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem
 }
 
 article a{
     color: var(--btn-color);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
